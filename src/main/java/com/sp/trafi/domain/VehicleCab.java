@@ -1,8 +1,5 @@
 package com.sp.trafi.domain;
 
-/**
- * Created by sami on 11.3.2017.
- */
 public class VehicleCab extends BaseVehicleInfo {
     private String descriptionFi;
     private String descriptionSv;

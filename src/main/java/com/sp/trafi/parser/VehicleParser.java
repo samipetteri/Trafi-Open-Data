@@ -1,8 +1,11 @@
 package com.sp.trafi.parser;
 
-import com.sp.trafi.domain.*;
+import com.sp.trafi.domain.Vehicle;
 
-import java.io.*;
+import java.io.Closeable;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.Iterator;
 import java.util.Scanner;
 import java.util.Spliterator;
@@ -10,9 +13,6 @@ import java.util.Spliterators;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-/**
- * Created by sami on 11.3.2017.
- */
 public class VehicleParser implements Closeable, AutoCloseable {
     private final Scanner scanner;
 

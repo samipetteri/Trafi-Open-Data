@@ -3,9 +3,6 @@ package com.sp.trafi.domain;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * Created by sami on 11.3.2017.
- */
 public class Vehicle {
     // 0
     private VehicleClass vehicleClass;

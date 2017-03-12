@@ -1,12 +1,5 @@
 package com.sp.trafi.parser;
 
-import com.sp.trafi.domain.*;
-
-import java.util.Date;
-
-/**
- * Created by sami on 11.3.2017.
- */
 public class I {
     public static final int VEHICLE_CLASS = 0;
     public static final int FIRST_REGISTRATION_DATE = 1;

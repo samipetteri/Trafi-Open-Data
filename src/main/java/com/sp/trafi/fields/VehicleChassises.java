@@ -2,9 +2,6 @@ package com.sp.trafi.fields;
 
 import com.sp.trafi.domain.VehicleChassis;
 
-/**
- * Created by sami on 11.3.2017.
- */
 public class VehicleChassises extends BaseDataProvider<VehicleChassis>{
     @Override
     protected VehicleChassis createRow(String[] parts) {

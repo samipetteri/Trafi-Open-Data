@@ -2,9 +2,6 @@ package com.sp.trafi.fields;
 
 import com.sp.trafi.domain.VehicleClass;
 
-/**
- * Created by sami on 11.3.2017.
- */
 public class VehicleClasses extends BaseDataProvider<VehicleClass> {
     @Override
     protected VehicleClass createRow(String[] parts) {

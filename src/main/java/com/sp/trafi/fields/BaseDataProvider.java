@@ -10,9 +10,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-/**
- * Created by sami on 11.3.2017.
- */
 public abstract class BaseDataProvider<T extends BaseVehicleInfo> {
     private Map<String, T> collection;
 

@@ -2,9 +2,6 @@ package com.sp.trafi.fields;
 
 import com.sp.trafi.domain.VehicleGroup;
 
-/**
- * Created by sami on 11.3.2017.
- */
 public class VehicleGroups extends BaseDataProvider<VehicleGroup> {
 
     @Override

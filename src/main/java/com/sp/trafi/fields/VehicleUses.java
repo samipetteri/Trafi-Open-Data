@@ -2,9 +2,6 @@ package com.sp.trafi.fields;
 
 import com.sp.trafi.domain.VehicleUse;
 
-/**
- * Created by sami on 11.3.2017.
- */
 public class VehicleUses extends BaseDataProvider<VehicleUse> {
 
     @Override

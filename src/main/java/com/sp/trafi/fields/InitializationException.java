@@ -1,8 +1,5 @@
 package com.sp.trafi.fields;
 
-/**
- * Created by sami on 11.3.2017.
- */
 public class InitializationException extends RuntimeException {
     public InitializationException() {
     }

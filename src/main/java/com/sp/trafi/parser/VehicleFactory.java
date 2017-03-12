@@ -1,7 +1,7 @@
 package com.sp.trafi.parser;
 
-import com.sp.trafi.fields.*;
 import com.sp.trafi.domain.Vehicle;
+import com.sp.trafi.fields.*;
 
 public class VehicleFactory {
     private VehicleClasses classes = new VehicleClasses();

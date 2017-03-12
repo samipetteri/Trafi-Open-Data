@@ -5,9 +5,6 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 
-/**
- * Created by sami on 11.3.2017.
- */
 public class Row {
     private String[] elements;
     public Row(String[] elements) {
