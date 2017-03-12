@@ -34,9 +34,6 @@ public class VehicleChassis extends BaseVehicleInfo {
 
     @Override
     public String toString() {
-        return "VehicleChassis{" +
-                "code='" + code + '\'' +
-                ", descriptionFi='" + descriptionFi + '\'' +
-                '}';
+        return descriptionFi;
     }
 }

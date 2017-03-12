@@ -1,6 +1,5 @@
-package com.sp.trafi;
+package com.sp.trafi.fields;
 
-import com.sp.trafi.BaseDataProvider;
 import com.sp.trafi.domain.VehicleFuel;
 
 /**

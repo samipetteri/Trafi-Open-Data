@@ -1,11 +1,6 @@
-package com.sp.trafi;
+package com.sp.trafi.fields;
 
 import com.sp.trafi.domain.VehicleCab;
-
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.util.*;
 
 /**
  * Created by sami on 11.3.2017.

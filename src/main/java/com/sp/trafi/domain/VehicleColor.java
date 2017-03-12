@@ -31,4 +31,9 @@ public class VehicleColor extends BaseVehicleInfo {
     public void setDescriptionEn(String descriptionEn) {
         this.descriptionEn = descriptionEn;
     }
+
+    @Override
+    public String toString() {
+        return getDescriptionFi();
+    }
 }

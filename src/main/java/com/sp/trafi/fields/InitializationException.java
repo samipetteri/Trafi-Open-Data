@@ -1,4 +1,4 @@
-package com.sp.trafi;
+package com.sp.trafi.fields;
 
 /**
  * Created by sami on 11.3.2017.

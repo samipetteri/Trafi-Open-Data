@@ -1,7 +1,6 @@
-package com.sp.trafi;
+package com.sp.trafi.fields;
 
 import com.sp.trafi.domain.BaseVehicleInfo;
-import com.sp.trafi.domain.VehicleColor;
 
 import java.io.File;
 import java.io.FileInputStream;

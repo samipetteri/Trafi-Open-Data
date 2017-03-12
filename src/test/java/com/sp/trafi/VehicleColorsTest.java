@@ -1,5 +1,6 @@
 package com.sp.trafi;
 
+import com.sp.trafi.fields.VehicleColors;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

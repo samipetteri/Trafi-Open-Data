@@ -1,5 +1,6 @@
 package com.sp.trafi.domain;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -40,13 +41,13 @@ public class Vehicle {
     private int seatCount;
 
     // 11
-    private float weight;
+    private int weight;
 
     // 12
-    private float maxWeightByManufacturer;
+    private int maxWeightByManufacturer;
 
     // 13
-    private float maxWeightByGoverment;
+    private int maxWeightByGoverment;
 
     // 14
     private int length;
@@ -65,7 +66,7 @@ public class Vehicle {
 
     // 20
     // Moottorin suurin nettoteho kilowatteina (kW).
-    private float enginePower;
+    private int enginePower;
 
     // 21
     // Sylintereiden lukumäärä.
@@ -154,6 +155,15 @@ public class Vehicle {
         return registrationDate;
     }
 
+    public int getRegistrationDateYear() {
+        if (registrationDate == null)
+            return 0;
+
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
+        String regDateString = sdf.format(registrationDate);
+        return Integer.parseInt(regDateString);
+    }
+
     public void setRegistrationDate(Date registrationDate) {
         this.registrationDate = registrationDate;
     }
@@ -176,6 +186,15 @@ public class Vehicle {
 
     public Date getInUseDate() {
         return inUseDate;
+    }
+
+    public int getInUseDateYear() {
+        if (inUseDate == null)
+            return 0;
+
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
+        String regDateString = sdf.format(inUseDate);
+        return Integer.parseInt(regDateString);
     }
 
     public void setInUseDate(Date inUseDate) {
@@ -222,27 +241,27 @@ public class Vehicle {
         this.seatCount = seatCount;
     }
 
-    public float getWeight() {
+    public int getWeight() {
         return weight;
     }
 
-    public void setWeight(float weight) {
+    public void setWeight(int weight) {
         this.weight = weight;
     }
 
-    public float getMaxWeightByManufacturer() {
+    public int getMaxWeightByManufacturer() {
         return maxWeightByManufacturer;
     }
 
-    public void setMaxWeightByManufacturer(float maxWeightByManufacturer) {
+    public void setMaxWeightByManufacturer(int maxWeightByManufacturer) {
         this.maxWeightByManufacturer = maxWeightByManufacturer;
     }
 
-    public float getMaxWeightByGoverment() {
+    public int getMaxWeightByGoverment() {
         return maxWeightByGoverment;
     }
 
-    public void setMaxWeightByGoverment(float maxWeightByGoverment) {
+    public void setMaxWeightByGoverment(int maxWeightByGoverment) {
         this.maxWeightByGoverment = maxWeightByGoverment;
     }
 
@@ -286,11 +305,11 @@ public class Vehicle {
         this.engineDisplacement = engineDisplacement;
     }
 
-    public float getEnginePower() {
+    public int getEnginePower() {
         return enginePower;
     }
 
-    public void setEnginePower(float enginePower) {
+    public void setEnginePower(int enginePower) {
         this.enginePower = enginePower;
     }
 
